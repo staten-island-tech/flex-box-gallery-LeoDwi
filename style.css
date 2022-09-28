@@ -6,10 +6,32 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+.background {
+  background-color: rgb(42, 32, 32);
+}
+
+.child {
+  background-color: aqua;
+}
 .parent {
   font-size: 20px;
   display: flex;
   justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.parent2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
+}
+
+.parent3 {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0px;
 }
 .px-size {
   font-size: 20px;
