@@ -15,11 +15,19 @@ body,
   font-size: 20rem;
   margin: 0px auto;
   padding: 10px;
+  text-align: center;
+}
+
+.h2 {
+  background-color: aqua;
 }
 
 .child {
   background-color: aqua;
-  padding: 10px 20px;
+  padding: 50px 50px;
+  margin: 50px auto;
+  width: 20%;
+  height: 50px;
 }
 .parent {
   font-size: 20px;
