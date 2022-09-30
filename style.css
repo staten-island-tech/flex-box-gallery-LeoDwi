@@ -11,8 +11,10 @@ body,
   background-color: cornflowerblue;
 }
 
-.headers {
-  font-size: 20px;
+.heading {
+  font-size: 20rem;
+  margin: 0px auto;
+  padding: 10px;
 }
 
 .child {
