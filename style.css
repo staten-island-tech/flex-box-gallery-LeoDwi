@@ -5,26 +5,30 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: rgb(22, 26, 33);
 }
 .background {
-  background-color: cornflowerblue;
+  background-color: rgb(22, 26, 33);
 }
 
-.heading {
+.h2 {
   font-size: 20rem;
   margin: 0px auto;
   padding: 10px;
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid rgb(70, 118, 190);
+  color: gold;
 }
 
 .child {
-  background-color: aqua;
+  background-color: rgb(11, 92, 105);
   padding: 50px 50px;
   margin: 50px auto;
-  border: 3px solid red;
+  border: 3px solid rgb(213, 158, 16);
   box-shadow: 10px 3px 3px black;
+  border-radius: 10px;
 }
+
 .parent {
   font-size: 20px;
   display: flex;
@@ -33,6 +37,8 @@ body,
   margin: 50px auto;
   width: 95vw;
   align-items: center;
+  flex: 200px;
+  flex-wrap: wrap;
 }
 
 .px-size {
