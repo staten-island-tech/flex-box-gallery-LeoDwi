@@ -60,7 +60,7 @@ img {
     flex-direction: column;
     margin: 0px auto;
     width: 100vw;
-    flex: 1;
+    flex: 100;
   }
   .child {
     width: 100vw;
@@ -72,7 +72,7 @@ img {
     flex-direction: column;
     margin: 0px auto;
     width: 100vw;
-    flex: 1;
+    flex: 100;
   }
   .child {
     width: 100vw;
