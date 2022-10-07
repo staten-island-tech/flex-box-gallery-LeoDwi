@@ -55,6 +55,10 @@ img {
   background-color: rgb(11, 92, 105);
 }
 
+.img1:hover {
+  transform: scale(90%);
+}
+
 @media screen and (max-width: 900px;) {
   .parent {
     flex-direction: column;
