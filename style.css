@@ -35,7 +35,7 @@ body,
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin: 50px auto;
+  margin: 0px auto;
   width: 95vw;
   align-items: center;
   flex: 200px;
