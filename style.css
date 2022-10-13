@@ -58,32 +58,56 @@ img {
   transform: scale(130%);
 }
 
-.child-5: {
-  animation: test 4s;
+.animation {
+  height: 10px;
+  width: 15px;
+  background-color: red;
+  animation: test 20s infinite;
+  position: absolute;
+}
+
+.child-8 {
 }
 
 @keyframes test {
   0% {
     left: 50%;
     bottom: 10%;
+    background-color: aqua;
+    rotate: 0deg;
   }
   25% {
     left: 50%;
     bottom: 10%;
+    background-color: black;
+    rotate: 90deg;
   }
   50% {
     left: 50%;
     bottom: 10%;
+    background-color: azure;
+    rotate: 180deg;
   }
   75% {
     left: 50%;
     bottom: 10%;
+    background-color: blueviolet;
+    rotate: 270deg;
   }
   100% {
     left: 50%;
     bottom: 10%;
+    background-color: brown;
+    rotate: 360deg;
   }
 }
+
+@keyframes flying {
+  0% {
+    left: 50%;
+  }
+}
+
 @media screen and (max-width: 900px;) {
   .parent {
     flex-direction: column;
