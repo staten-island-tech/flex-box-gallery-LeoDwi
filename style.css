@@ -112,7 +112,7 @@ img {
 @keyframes flying {
   0% {
     left: 50%;
-    top: 48%;
+    top: 48.75%;
     background-color: red;
   }
   20% {
