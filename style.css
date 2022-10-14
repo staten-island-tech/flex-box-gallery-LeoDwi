@@ -70,6 +70,7 @@ img {
 }
 
 .doge {
+  background-image: url(Henriques.png);
   height: 2rem;
   width: 2rem;
   animation: flying 10s infinite;
@@ -78,32 +79,32 @@ img {
 
 @keyframes test {
   0% {
-    left: 50%;
+    left: 0%;
     bottom: 10%;
     background-color: aqua;
     rotate: 0deg;
   }
   25% {
-    left: 50%;
-    bottom: 50%;
+    left: 100%;
+    bottom: 20%;
     background-color: black;
     rotate: 90deg;
   }
   50% {
-    left: 50%;
-    bottom: 50%;
+    left: 100%;
+    bottom: 87.5%;
     background-color: azure;
     rotate: 180deg;
   }
   75% {
-    left: 50%;
-    bottom: 50%;
+    left: 5%;
+    bottom: 75%;
     background-color: blueviolet;
     rotate: 270deg;
   }
   100% {
-    left: 50%;
-    bottom: 50%;
+    left: 5%;
+    bottom: 10%;
     background-color: brown;
     rotate: 360deg;
   }
