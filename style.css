@@ -54,23 +54,26 @@ img {
   background-color: rgb(11, 92, 105);
 }
 
+.child {
+  transition: all 0.3s;
+}
 .child:hover {
-  transform: scale(130%);
+  transform: scale(125%);
 }
 
 .animation {
   height: 10px;
   width: 15px;
   background-color: red;
-  animation: test 20s infinite;
-  position: absolute;
+  animation: test 10s infinite;
+  position: fixed;
 }
 
 .doge {
   height: 2rem;
   width: 2rem;
-  animation: flying 4s infinite;
-  position: absolute;
+  animation: flying 10s infinite;
+  position: fixed;
 }
 
 @keyframes test {
@@ -82,25 +85,25 @@ img {
   }
   25% {
     left: 50%;
-    bottom: 10%;
+    bottom: 50%;
     background-color: black;
     rotate: 90deg;
   }
   50% {
     left: 50%;
-    bottom: 10%;
+    bottom: 50%;
     background-color: azure;
     rotate: 180deg;
   }
   75% {
     left: 50%;
-    bottom: 10%;
+    bottom: 50%;
     background-color: blueviolet;
     rotate: 270deg;
   }
   100% {
     left: 50%;
-    bottom: 10%;
+    bottom: 50%;
     background-color: brown;
     rotate: 360deg;
   }
@@ -109,32 +112,32 @@ img {
 @keyframes flying {
   0% {
     left: 50%;
-    bottom: 100%;
+    top: 48%;
     background-color: red;
   }
   20% {
     left: 50%;
-    bottom: 100%;
+    top: 50%;
     background-color: red;
   }
   40% {
     left: 50%;
-    top: 10%;
+    top: 60%;
     background-color: white;
   }
   60% {
     left: 50%;
-    top: 10%;
+    top: 70%;
     background-color: white;
   }
   80% {
     left: 50%;
-    top: 10%;
+    top: 80%;
     background-color: blue;
   }
   100% {
     left: 50%;
-    top: 10%;
+    top: 88.5%;
     background-color: blue;
   }
 }
