@@ -66,7 +66,11 @@ img {
   position: absolute;
 }
 
-.child-8 {
+.doge {
+  height: 2rem;
+  width: 2rem;
+  animation: flying 4s infinite;
+  position: absolute;
 }
 
 @keyframes test {
@@ -105,6 +109,33 @@ img {
 @keyframes flying {
   0% {
     left: 50%;
+    bottom: 100%;
+    background-color: red;
+  }
+  20% {
+    left: 50%;
+    bottom: 100%;
+    background-color: red;
+  }
+  40% {
+    left: 50%;
+    top: 10%;
+    background-color: white;
+  }
+  60% {
+    left: 50%;
+    top: 10%;
+    background-color: white;
+  }
+  80% {
+    left: 50%;
+    top: 10%;
+    background-color: blue;
+  }
+  100% {
+    left: 50%;
+    top: 10%;
+    background-color: blue;
   }
 }
 
