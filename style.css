@@ -62,7 +62,7 @@ img {
   opacity: 100%;
 }
 
-.child-2:hover .child:not(:hover) {
+.child-5:hover .child:not(:hover) {
   transform: scale(20%);
   opacity: 75%;
 }
@@ -76,10 +76,9 @@ img {
 }
 
 .doge {
-  background-image: url(Henriques.png);
   height: 1rem;
   width: 1rem;
-  animation: flying 10s infinite;
+  animation: test 5s infinite;
   position: fixed;
 }
 
