@@ -67,7 +67,7 @@ img {
   opacity: 75%;
 }
 
-.animation {
+.henriques {
   height: 0.01px;
   width: 0.01px;
   background-color: red;
@@ -75,10 +75,11 @@ img {
   position: fixed;
 }
 
-.doge {
-  height: 1rem;
-  width: 1rem;
-  animation: test 5s infinite;
+.whalen {
+  height: 0.01px;
+  width: 0.01px;
+  animation: test 10s infinite;
+  animation-delay: 5s;
   position: fixed;
 }
 
