@@ -77,6 +77,11 @@ img {
   position: fixed;
 }
 
+.child-2 {
+  animation: flying 10s infinite;
+  /* position: absolute; */
+}
+
 .child-4 {
   animation: gliding 10s infinite;
   position: absolute;
@@ -142,7 +147,7 @@ img {
     top: 110.5%;
   }
   100% {
-    left: 6%;
+    left: 6.5%;
     top: 110.5%;
   }
 }
@@ -153,7 +158,7 @@ img {
     top: 110.5%;
   }
   25% {
-    right: 6%;
+    right: 6.5%;
     top: 110.5%;
   }
   50% {
