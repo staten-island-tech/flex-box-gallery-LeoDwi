@@ -115,7 +115,7 @@ img {
     left: 100%;
     bottom: 22.5%;
     background-color: black;
-    rotate: 90deg;
+    /* rotate: 90deg; */
   }
   50% {
     left: 100%;
@@ -127,7 +127,7 @@ img {
     left: 0%;
     bottom: 75%;
     background-color: blueviolet;
-    rotate: 270deg;
+    /* rotate: 270deg; */
   }
   100% {
     left: 0%;
