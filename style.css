@@ -51,7 +51,7 @@ img {
   font-size: 2rem;
   text-align: center;
   padding: 0px;
-  background-color: rgb(11, 92, 105);
+  /* background-color: rgb(11, 92, 105); */
 }
 
 .child {
@@ -62,8 +62,8 @@ img {
 }
 
 .animation {
-  height: 10px;
-  width: 15px;
+  height: 0.01px;
+  width: 0.01px;
   background-color: red;
   animation: test 10s infinite;
   position: fixed;
@@ -71,22 +71,36 @@ img {
 
 .doge {
   background-image: url(Henriques.png);
-  height: 2rem;
-  width: 2rem;
+  height: 1rem;
+  width: 1rem;
   animation: flying 10s infinite;
   position: fixed;
+}
+
+.child-4 {
+  animation: gliding 10s infinite;
+  position: absolute;
+}
+
+.child-5 {
+  animation: spin 10s infinite;
+}
+
+.child-6 {
+  animation: gliding2 10s infinite;
+  position: absolute;
 }
 
 @keyframes test {
   0% {
     left: 0%;
-    bottom: 10%;
+    bottom: 11.5%;
     background-color: aqua;
     rotate: 0deg;
   }
   25% {
     left: 100%;
-    bottom: 20%;
+    bottom: 22.5%;
     background-color: black;
     rotate: 90deg;
   }
@@ -97,49 +111,104 @@ img {
     rotate: 180deg;
   }
   75% {
-    left: 5%;
+    left: 0%;
     bottom: 75%;
     background-color: blueviolet;
     rotate: 270deg;
   }
   100% {
-    left: 5%;
-    bottom: 10%;
+    left: 0%;
+    bottom: 11.5%;
     background-color: brown;
     rotate: 360deg;
   }
 }
 
-@keyframes flying {
+@keyframes gliding {
   0% {
-    left: 50%;
-    top: 48.75%;
-    background-color: red;
+    left: 6.5%;
+    top: 110.5%;
   }
-  20% {
-    left: 50%;
-    top: 50%;
-    background-color: red;
+  25% {
+    left: 6.5%;
+    top: 110.5%;
   }
-  40% {
-    left: 50%;
-    top: 60%;
-    background-color: white;
+  50% {
+    left: 71%;
+    top: 110.5%;
   }
-  60% {
-    left: 50%;
-    top: 70%;
-    background-color: white;
-  }
-  80% {
-    left: 50%;
-    top: 80%;
-    background-color: blue;
+  75% {
+    left: 72%;
+    top: 110.5%;
   }
   100% {
-    left: 50%;
-    top: 88.5%;
-    background-color: blue;
+    left: 6%;
+    top: 110.5%;
+  }
+}
+
+@keyframes gliding2 {
+  0% {
+    right: 6.5%;
+    top: 110.5%;
+  }
+  25% {
+    right: 6%;
+    top: 110.5%;
+  }
+  50% {
+    right: 71%;
+    top: 110.5%;
+  }
+  75% {
+    right: 72%;
+    top: 110.5%;
+  }
+  100% {
+    right: 6.5%;
+    top: 110.5%;
+  }
+}
+
+@keyframes flying {
+  0% {
+    left: 45%;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  10% {
+    rotate: 0deg;
+  }
+  20% {
+    rotate: 0deg;
+  }
+  30% {
+    rotate: 0deg;
+  }
+  40% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  60% {
+    rotate: 360deg;
+  }
+  70% {
+    rotate: 360deg;
+  }
+  80% {
+    rotate: 360deg;
+  }
+  90% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 360deg;
   }
 }
 
