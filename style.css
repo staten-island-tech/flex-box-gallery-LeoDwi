@@ -90,7 +90,6 @@ img {
 .child-5:hover {
   rotate: 360deg;
   transform: scale(110%);
-  background-color: gold;
 }
 
 .child-6 {
