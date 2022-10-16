@@ -61,7 +61,7 @@ img {
   opacity: 100%;
 }
 
-.child-5:hover .child:not(:hover) {
+.parent:hover .child:not(:hover) {
   transform: scale(20%);
   opacity: 75%;
 }
