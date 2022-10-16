@@ -83,11 +83,6 @@ img {
   position: fixed;
 }
 
-.child-2 {
-  animation: flying 10s infinite;
-  /* position: absolute; */
-}
-
 .child-4 {
   animation: gliding 10s infinite;
   position: absolute;
