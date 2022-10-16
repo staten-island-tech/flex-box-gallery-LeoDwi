@@ -47,7 +47,7 @@ img {
   margin: 0px auto;
 }
 
-.description {
+.content {
   font-size: 2rem;
   text-align: center;
   padding: 0px;
@@ -62,7 +62,6 @@ img {
 }
 
 .parent:hover .child:not(:hover) {
-  transform: scale(20%);
   opacity: 75%;
 }
 
