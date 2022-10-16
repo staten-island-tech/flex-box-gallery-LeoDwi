@@ -76,6 +76,16 @@ img {
   border: rgb(70, 118, 190);
 }
 
+.child-7:hover {
+  outline: 3px solid rgb(70, 118, 190);
+  transform: scale(100%);
+  border: rgb(70, 118, 190);
+}
+
+.child-8:hover {
+  transform: scale(90%);
+}
+
 .background:hover .child:not(:hover) {
   opacity: 75%;
 }
