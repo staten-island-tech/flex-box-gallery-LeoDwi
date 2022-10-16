@@ -61,7 +61,22 @@ img {
   opacity: 100%;
 }
 
-.parent:hover .child:not(:hover) {
+.child-1:hover {
+  background-color: rgb(213, 158, 16);
+  transform: scale(100%);
+}
+
+.child-2:hover {
+  transform: scale(90%);
+}
+
+.child-3:hover {
+  outline: 3px solid rgb(70, 118, 190);
+  transform: scale(100%);
+  border: rgb(70, 118, 190);
+}
+
+.background:hover .child:not(:hover) {
   opacity: 75%;
 }
 
