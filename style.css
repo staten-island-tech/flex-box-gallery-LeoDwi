@@ -183,48 +183,6 @@ img {
   }
 }
 
-@keyframes flying {
-  0% {
-    left: 45%;
-  }
-}
-
-@keyframes spin {
-  0% {
-    rotate: 0deg;
-  }
-  10% {
-    rotate: 0deg;
-  }
-  20% {
-    rotate: 0deg;
-  }
-  30% {
-    rotate: 0deg;
-  }
-  40% {
-    rotate: 0deg;
-  }
-  50% {
-    rotate: 0deg;
-  }
-  60% {
-    rotate: 360deg;
-  }
-  70% {
-    rotate: 360deg;
-  }
-  80% {
-    rotate: 360deg;
-  }
-  90% {
-    rotate: 360deg;
-  }
-  100% {
-    rotate: 360deg;
-  }
-}
-
 @media screen and (max-width: 900px;) {
   .parent {
     flex-direction: column;
