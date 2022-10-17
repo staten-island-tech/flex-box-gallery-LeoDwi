@@ -23,7 +23,7 @@ body,
 .child {
   background-color: rgb(11, 92, 105);
   padding: 50px 50px;
-  margin: 50px auto;
+  margin: 50px 50px;
   border: 3px solid rgb(213, 158, 16);
   box-shadow: 10px 3px 3px black;
   border-radius: 10px;
@@ -111,37 +111,37 @@ img {
   position: fixed;
 }
 
-.child-4 {
+/* .child-4 {
   animation: gliding 10s infinite;
   position: absolute;
-}
+} */
 
 .child-5:hover {
   rotate: 360deg;
   transform: scale(110%);
 }
 
-.child-6 {
+/* .child-6 {
   animation: gliding2 10s infinite;
   position: absolute;
-}
+} */
 
 @keyframes test {
   0% {
     left: 0%;
-    bottom: 11.5%;
+    bottom: 15%;
     background-color: aqua;
     rotate: 0deg;
   }
   25% {
     left: 100%;
-    bottom: 22.5%;
+    bottom: 15%;
     background-color: black;
     /* rotate: 90deg; */
   }
   50% {
     left: 100%;
-    bottom: 87.5%;
+    bottom: 85%;
     background-color: azure;
     rotate: 180deg;
   }
@@ -153,13 +153,13 @@ img {
   }
   100% {
     left: 0%;
-    bottom: 11.5%;
+    bottom: 15%;
     background-color: brown;
     rotate: 360deg;
   }
 }
 
-@keyframes gliding {
+/* @keyframes gliding {
   0% {
     left: 6.5%;
     top: 110.5%;
@@ -203,7 +203,7 @@ img {
     right: 6.5%;
     top: 110.5%;
   }
-}
+} */
 
 @media screen and (max-width: 900px;) {
   .parent {
