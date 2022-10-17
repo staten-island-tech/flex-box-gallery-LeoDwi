@@ -95,7 +95,7 @@ img {
   opacity: 75%;
 }
 
-.henriques {
+.whalen {
   height: 0.01px;
   width: 0.01px;
   background-color: red;
@@ -103,7 +103,7 @@ img {
   position: fixed;
 }
 
-.whalen {
+.whalen1 {
   height: 0.01px;
   width: 0.01px;
   animation: test 10s infinite;
