@@ -18,6 +18,9 @@ body,
   border-bottom: 3px solid rgb(70, 118, 190);
   color: gold;
   font-family: "kalam", cursive;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .child {
@@ -205,26 +208,36 @@ img {
   }
 } */
 
-@media screen and (max-width: 900px;) {
+@media screen and (max-width: 900px) {
   .parent {
-    flex-direction: column;
-    margin: 0px auto;
+    flex-direction: row;
+    margin: 0px 0px;
     width: 100vw;
     flex: 100;
   }
   .child {
-    width: 100%;
+    width: 40%;
+    margin: 20px 20px;
   }
 }
 
-@media screen and (max-width: 600px;) {
+@media screen and (max-width: 600px) {
+  .h2 {
+    color: aqua;
+  }
   .parent {
     flex-direction: column;
     margin: 0px auto;
     width: 100vw;
-    flex: 100;
   }
   .child {
-    width: 100%;
+    width: 60vw;
+    margin: 20px auto;
+  }
+}
+
+@media (orientation: landscape) {
+  .heading {
+    color: blue;
   }
 }
