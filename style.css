@@ -239,8 +239,17 @@ img {
   }
 }
 
-@media (orientation: landscape) {
-  .heading {
-    color: blue;
+@media screen and (max-width: 400px) {
+  .h2 {
+    color: aqua;
+  }
+  .parent {
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100vw;
+  }
+  .child {
+    width: 90vw;
+    margin: 20px auto;
   }
 }
