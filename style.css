@@ -208,7 +208,7 @@ img {
   }
 } */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .h2 {
     color: rgb(162, 210, 30);
   }
