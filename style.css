@@ -219,11 +219,8 @@ img {
     flex: 100;
   }
   .child {
-    width: 27.5%;
+    width: 20%;
     margin: 20px 20px;
-  }
-  img {
-    width: 20rem;
   }
 }
 
