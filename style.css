@@ -208,6 +208,22 @@ img {
   }
 } */
 
+@media screen and (max-width: 1300px) {
+  .h2 {
+    color: rgb(162, 210, 30);
+  }
+  .parent {
+    flex-direction: row;
+    margin: 0px 0px;
+    width: 100vw;
+    flex: 100;
+  }
+  .child {
+    width: 27.5%;
+    margin: 20px 20px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .h2 {
     color: chocolate;
