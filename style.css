@@ -208,6 +208,12 @@ img {
   }
 } */
 
+@media screen and (max-width: 1700px) {
+  .h2 {
+    color: rgb(162, 210, 30);
+  }
+}
+
 @media screen and (max-width: 900px) {
   .h2 {
     color: chocolate;
